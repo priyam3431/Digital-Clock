@@ -1,0 +1,35 @@
+
+
+
+body{
+    background-color: rgb(34,34,34);
+    color: #00ffff;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main{
+    display: flex;
+    background-color: #222;
+    width: 330px;
+    font-size: 40px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    box-shadow: -5px -5px 5px rgba(255,255,255,0.05),
+                 5px 5px 5px rgba(0,0,0,0.5);
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    
+}
+
+#ampm{
+   position: absolute;
+   right: 30px;
+}
